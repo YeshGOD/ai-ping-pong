@@ -1,0 +1,55 @@
+body
+{
+    background-size: cover;
+}
+
+.heading
+{
+    width: 100%;
+    font-size: 24px;
+    text-align: left;
+}
+
+.heading button
+{
+    float: right;
+    border: 1px solid white;
+    background-color: green;
+}
+
+#instruction
+{
+    animation: infinite 5s;
+    animation-name: border;
+}
+
+@keyframes border
+{
+    from
+    {
+        border: 1px solid black;
+    }
+    to
+    {
+        border: 1px solid white;
+    }
+}
+
+hr
+{
+    border-color: blue;
+    opacity: 50%;
+}
+
+.btn-info
+{
+    border: 2px solid lime;
+    font-family: verdana;
+    font-size: 24px;
+}
+
+#canvas
+{
+    border: 3px dashed firebrick;
+    opacity: 40%;
+}
