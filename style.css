@@ -53,3 +53,20 @@ hr
     border: 3px dashed firebrick;
     opacity: 40%;
 }
+
+#play #restart
+{
+    font-family: sans-serif;
+}
+
+.copy_right_footer
+{
+    background-color: red;
+    line-height: 2;
+    margin: 0px;
+}
+
+#play
+{
+    border-color: red;
+}

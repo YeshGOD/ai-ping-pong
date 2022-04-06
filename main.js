@@ -68,8 +68,6 @@ function draw(){
     move();
 }
 
-
-
 //function reset when ball does notcame in the contact of padde
 function reset(){
    ball.x = width/2+100,
@@ -163,3 +161,5 @@ function paddleInCanvas(){
     mouseY =0;
   }  
 }
+
+function restart()
